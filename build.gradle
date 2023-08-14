@@ -8,7 +8,9 @@ targetCompatibility = JavaVersion.VERSION_17
 
 archivesBaseName = project.archives_base_name
 version = project.mod_version
-group = project.maven_group
+// believe this to be specific to Apache Maven, a build automation tool i don't plan to use. 
+// re-add if it breaks. 
+// group = project.maven_group
 
 dependencies {
     //to change the versions see the gradle.properties file
